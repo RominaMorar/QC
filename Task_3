@@ -1,0 +1,78 @@
+Chosen application - music streaming platform
+
+1)Unit testing
+  Requirement - ensure that each part of the code developed in a component delivers the desired output
+  Testing approach - Write and execute test cases specifically targeting the search function. 
+                     Validate the search results for different search queries, including verifying the accuracy of search results, handling of different search parameters, 
+                     and handling of edge cases such as empty search queries or invalid input
+                     
+2)Component testing
+  Requirement - checks individual parts of an application
+  Testing approach - Develop test scenarios that cover the interaction between the user authentication component and the database component. 
+                     Verify the proper functioning of user authentication, including user registration, login, and password reset, while
+                     ensuring that the necessary data is accurately stored and retrieved from the database.
+                     
+3)Smoke testing
+  Requirement - provides an initial check that a new software build and its critical functionality are stable
+  Testing approach - Execute a set of key operations and functions in the music streaming service, such as logging in, browsing music categories,
+                     playing a song, creating a playlist, and accessing the user profile. The purpose is to quickly identify any critical issues or failures in the basic functionality of the application.
+                     
+4)Sanity testing
+  Requirement - validate either new functionality or bug fixes
+  Testing approach - Perform brief test scenarios to verify the essential features of the music streaming service following the implementation of changes. 
+                     The goal is to ensure that the changes do not disrupt the core functionalities and that the system operates as expected without any major issues.
+                     
+5)Regression testing
+  Requirement - to make sure that a change or addition hasn’t broken any of the existing functionality
+  Testing approach - Execute an extensive set of test scenarios covering various aspects of the music streaming service, including different functionalities, modules, and integration points.
+                     The purpose is to detect any potential errors or issues that may arise as a result of changes, ensuring the stability and reliability of the application.
+                     
+6)Integration testing
+  Requirement -  verify whether individual modules of code work together properly as a group
+  Testing approach - Perform test scenarios that examine the integration of the music streaming service with external systems or services. 
+                     This includes testing data transmission, synchronization, and other aspects of interaction, ensuring seamless communication and proper functionality between the systems.
+                     
+7)API testing
+  Requirement - aims to check APIs’ reliability, performance, security, and functionality
+  Testing approach - Execute test scenarios that verify the input and output data of the streaming service API, validate the accuracy of the results, and ensure compliance with the API specifications. 
+                     This involves testing different API endpoints, handling authentication and authorization, and verifying error handling mechanisms.
+                     
+8)UI testing
+  Requirement - test the functionality or features of the software or application that comes into interaction with end-users
+  Testing approach - Execute test scenarios that validate the accurate display of UI elements, their responsiveness to user actions, and proper navigation within the application. 
+                     This includes verifying the layout, design, usability, and accessibility of the GUI, ensuring a smooth and intuitive user experience.
+                     
+9)System testing
+  Requirement - test the software in its entirety, as a complete product
+  Testing approach - Perform comprehensive test scenarios that evaluate different aspects of the service, 
+                     including features, performance, user experience, security, data integrity, error handling, scalability, compatibility, and adherence to legal and regulatory requirements
+                     
+10)White-box testing
+  Requirement -  inspect the inner workings of a software system – code, infrastructure, and integrations with external systems.
+  Testing approach - Execute code-level tests to validate the correctness of the internal structures, logic, and algorithms used in the music streaming service.
+                     This includes testing edge cases, code coverage, and verifying the implementation of specific functionalities, ensuring the code operates as intended.
+                     
+11)Black-box testing
+  Requirement - check how the system responds to expected and unexpected user actions, response time, usability, and reliability testing issues.
+  Testing approach -  Execute test scenarios that validate the functionality of the music streaming service from an external perspective. 
+                      This involves testing the application as a whole, focusing on inputs, outputs, and expected behavior, without considering the internal workings of the system.
+                      
+12)Acceptance testing
+  Requirement - ensure that the end user can achieve the goals set in the business requirements
+  Testing approach - Engage users and stakeholders to execute test scenarios that validate if the music streaming service fulfills the specified requirements, meets user expectations, 
+                     and provides the desired functionality and quality. The purpose is to gain user feedback and ensure the system's acceptance.
+                     
+13)Alpha testing
+  Requirement - use internal team members to evaluate the product
+  Testing approach - Provide access to the music streaming service's alpha version to a small group of internal or external users. Encourage them to execute real-world test scenarios,
+                     report any issues or usability concerns, and provide feedback on the application's functionality and performance.
+                     
+14)Beta testing
+  Requirement -  to gather feedback from unbiased users who may interact with the product differently than you intended, perhaps identifying critical unknown bugs before release to a wide user base
+  Testing approach - Release a beta version of the music streaming service to a significant number of external users. Encourage them to use the application extensively, test various features,
+                     provide feedback, and report any issues or bugs encountered. This helps identify and address potential issues before the official release.
+                     
+15)Production testing
+  Requirement - testing any new feature or code changes in the production environment instead of staging
+  Testing approach - Execute test scenarios in the actual production environment of the music streaming service, simulating a large volume of data and user interactions. 
+                     This testing focuses on performance, scalability, reliability, and the ability to handle a high volume of concurrent tasks, ensuring the application can operate smoothly under real-world conditions.
