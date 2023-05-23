@@ -1,0 +1,48 @@
+Example #1
+User story:
+As a music streaming service user
+I want to be able to create personalized playlists
+So that i can easily access my favourite songs
+
+Scenario: User creates a new playlist
+"Given that I'm a registered user on the music streaming service
+When I navigate to the "Library" page
+Then I should see a list of all my playlists
+And I should see a "Create playlist" section in the top right corner of the screen
+When I click on the "Create playlist" section
+And I fill in the "Name" field with a desired name for the playlist
+And I click the "Create" button or press the Enter key on the keyboard
+Then the system should create the playlist with the provided name
+And the newly created playlist should appear in the list of my playlists on the "Library" page"
+
+Example #2
+User story:
+As a user
+I want to be able to use a search field to type a name or an username
+So that i can find specific users on the platorm
+
+Scenario: Looking for a specific user
+"Given that I'm a registered user
+When I navigate to the "Search" page
+Then I should see a search field prominently displayed on the interface
+When I enter a name or username in the search field
+And I click the "Search" button or press the Enter key
+Then the system should display a list of user accounts that match the entered name or username
+And the displayed results should include relevant information such as profile pictures, names, and usernames
+And I should be able to click on a user account to view the complete profile and access additional details or actions"
+
+Example #3
+User story:
+As a signed-in user
+I want to be able to make my account private
+So that my information and activities are only accessible to approved followers
+
+Scenario: Changing the privacy settings
+"Given that I'm a signed-in user
+When I navigate to the "Settings" page
+And I click on the "Account Privacy" section
+Then I should see a button labeled "Make Account Private"
+When I click on the "Make Account Private" button
+Then my account should transition to a private mode
+And only approved followers should have access to view my profile
+And other users attempting to view my account should receive a notification indicating that the account is private"
