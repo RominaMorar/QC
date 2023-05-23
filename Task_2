@@ -1,0 +1,78 @@
+Use case example #1
+ Description - A user uploads a profile picture to a social media platform
+ Actor - User
+ Pre-Condition - 1)User is logged into their account
+                 2)User is on the profile editing page
+ Post-Condition - The user's profile picture is updated
+ 
+ Basic flow:
+  1) User selects the option to upload a new profile picture
+  2) User selects the desired image file from their device
+  3) System validates the uploaded file
+  4) File passess validation
+  5) System uploads the file to the server
+  6) The user's profile picture is updated
+  7) System confirms the successful upload and notifies the user with a success message
+  8) User saves the changes to their profile
+ 
+ Alternative flow:
+      2a.User decides to take the new profile photo using the device camera:
+       1)User selects the option "Take a picture"
+       2)System activates the device's camera
+       3)User takes the photo
+       4)User confirms the captured photo
+       5)System proceeds from step 5 in the main flow with the captured photo as the profile picture
+       
+ Exception flow:  
+     4a.File doesn't pass validation:
+       1)System displays an error message indicating the issue
+       2)User selects another file
+       3)User continues from step 3 in the main flow with a different file
+      
+     8a.User cancels the profile photo update:
+       1)User chooses to cancel the photo update process
+       2)System discards any changes made
+       3)User returns to the profile editing page without updating the photo
+       
+Use case example #2
+ Description - A user creates a group chat in a messenger
+ Actor - User
+ Pre-Condition - 1)User is logged into their account
+                 2)User is on the main messaging interface
+ Post-Condition - The group chat is created and displayed in the user's chat list
+ 
+ Basic flow:
+  1) The user selects the option to create a new chat or group.
+  2) The system presents a form or dialog to enter the details of the group chat
+  3) The user enters a name for the group chat
+  4) The user confirms the creation of the group chat
+  5) The system creates the group chat
+  6) The user selects or adds participants to include in the group chat
+  7) The system adds the selected participants.
+  8) The system displays the newly created group chat in the user's chat list
+ 
+ Alternative flow:
+      6a.User chooses to invite participants via a link:
+       1) User selects the option "Invite via link"
+       2) System generates a unique invitation link for the group chat
+       3) System displays the generated invitation link to the user
+       5) User copies the invitation link and shares it through various communication channels
+       6) System adds the participants which clicked on the link to the group chat
+       7) System displays the newly created group chat in the user's chat list
+       
+ Exception flow:  
+     5a.System fails to create the group chat:
+       1) The system encounters an error while creating the group chat
+       2) System displays an error message indicating the failure to create the group chat
+       3) User is notified about the issue and prompted to try again later or contact customer support
+      
+     3a.User enters an invalid or unsupported character in the group chat name:
+       1) System detects that the group chat name contains invalid characters
+       2) System displays an error message indicating the issue
+       3) User is prompted to enter a valid name for the group chat
+       
+     4a.User cancels the profile photo update:
+       1) User chooses to cancel the group chat creation process
+       2) System prompts the user with a confirmation message asking if they want to cancel
+       3) User confirms the cancellation.
+       4) System discards any entered information and returns the user to the previous screen or interface.      
