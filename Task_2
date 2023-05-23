@@ -42,13 +42,13 @@ Use case example #2
  Post-Condition - The group chat is created and displayed in the user's chat list
  
  Basic flow:
-  1) The user selects the option to create a new chat or group.
+  1) The user selects the option to create a new chat or group
   2) The system presents a form or dialog to enter the details of the group chat
   3) The user enters a name for the group chat
   4) The user confirms the creation of the group chat
   5) The system creates the group chat
   6) The user selects or adds participants to include in the group chat
-  7) The system adds the selected participants.
+  7) The system adds the selected participants
   8) The system displays the newly created group chat in the user's chat list
  
  Alternative flow:
@@ -74,5 +74,5 @@ Use case example #2
      4a.User cancels the profile photo update:
        1) User chooses to cancel the group chat creation process
        2) System prompts the user with a confirmation message asking if they want to cancel
-       3) User confirms the cancellation.
-       4) System discards any entered information and returns the user to the previous screen or interface.      
+       3) User confirms the cancellation
+       4) System discards any entered information and returns the user to the previous screen or interface    
