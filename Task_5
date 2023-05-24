@@ -1,0 +1,84 @@
+1) Title: Error in Group Chat Creation Process
+
+Product: Messenger App v1.2.3
+
+Classification: Serious Bug
+
+Platform: Android 12, Samsung Galaxy S21
+
+Summary: When attempting to create a group chat, the system encounters an error, preventing the successful creation of the group chat.
+
+Steps to Reproduce:
+  1.Launch the Messenger app
+  2.Log in to the user account
+  3.Navigate to the main messaging interface
+  4.Select the option to create a new chat or group
+  5.Enter the name "Work Chat" for the group chat
+  6.Confirm the creation of the group chat
+  7.Select or add participants to include in the group chat
+  8.Click on the "Add Participants" button
+  9.Observe the system's response
+  
+Expected Result: The system should successfully create the group chat named "Work Chat" and add the selected participants
+
+Actual Result: The system displays an error message stating, "Failed to create group chat. Please try again later."
+
+Priority: 1 (Must be fixed as soon as possible)
+
+Severity: Blocker (Prevents the user from creating group chats, impacting functionality)
+
+Status: New
+
+2) Title: Incorrect Display of Profile Picture in User's Account
+
+Product: Social Media Platform v2.0.1
+
+Classification: Minor Bug
+
+Platform: Web Application - Google Chrome 98.0.4758.102
+
+Summary: The user's profile picture is not displayed correctly in their account. Instead, a placeholder image is shown.
+
+Steps to Reproduce:
+  1.Open the web application in Google Chrome
+  2.Log in to the user's account
+  3.Navigate to the user's profile page
+  4.Observe the displayed profile picture
+  
+Expected Result: The user's uploaded profile picture should be displayed in their account
+
+Actual Result: Instead of the user's uploaded profile picture, a generic placeholder image is displayed
+
+Priority: 3 (Can be fixed in the next release)
+
+Severity: Minor (Does not impact core functionality, but affects user experience)
+
+Status: New
+
+3) Title: Error in Search Functionality
+
+Product: Music Streaming Service v3.1.2
+
+Classification: Serious Bug
+
+Platform: iOS 15, iPhone 12 Pro
+
+Summary: The search functionality in the music streaming service is not working correctly, causing incorrect or incomplete search results
+
+Steps to Reproduce:
+  1.Launch the music streaming service app
+  2.Log in to the user's account
+  3.Navigate to the search page
+  4.Enter the keyword "rock" in the search field
+  5.Tap on the "Search" button
+  6.Observe the displayed search results
+  
+Expected Result: The search results should include all relevant songs, artists, and albums related to the keyword "rock"
+
+Actual Result: The search results are incomplete and do not include some popular rock songs and artists. Some unrelated content is displayed instead.
+
+Priority: 1 (Must be fixed as soon as possible)
+
+Severity: Critical (Impacts the core functionality of searching for music, affecting user experience and satisfaction)
+
+Status: New
