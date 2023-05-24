@@ -1,0 +1,148 @@
+1)Test Case ID: TC001
+
+Unit to Test: Playlist creation section
+
+Assumptions:
+  The user is a registered user on the music streaming service.
+  The user is on the "Library" page.
+
+Test Data:
+  Playlist Name: "My Favorites"
+
+Steps to be Executed:
+  Verify that the "Library" page is displayed.
+    Expected: The user is on the "Library" page.
+  Verify that a list of all the user's playlists is visible on the page.
+    Expected: The list of playlists is displayed.
+  Verify that the "Create playlist" section is visible in the top right corner of the screen.
+    Expected: The "Create playlist" section is visible.
+  Click on the "Create playlist" section.
+  Verify that a form or input field for the playlist name is presented.
+    Expected: The "Name" field is displayed.
+  Enter the desired name "My Favorites" in the "Name" field.
+    Click the "Create" button or press the Enter key on the keyboard.
+  Verify that the playlist with the provided name is created.
+    Expected: The playlist "My Favorites" is created.
+  Verify that the newly created playlist appears in the list of the user's playlists on the "Library" page.
+    Expected: The playlist "My Favorites" is visible in the list of playlists.
+
+Expected Result:
+  The playlist "My Favorites" is successfully created with the provided name and appears in the list of the user's playlists on the "Library" page.
+
+Actual Results: As Expected
+Test Status – Pass/Fail: Pass
+
+2)Test Case ID: TC002
+
+Unit to Test: User Search
+
+Assumptions:
+  The user is a registered user.
+  The user is on the "Search" page.
+  
+Test Data:
+  Search Query: "JohnDoe"
+
+Steps to be Executed:
+  Verify that the "Search" page is displayed.
+    Expected: The "Search" page is shown.
+  Verify that a search field is prominently displayed on the interface.
+    Expected: The search field is visible.
+  Enter a name or username in the search field.
+  Click the "Search" button or press the Enter key on the keyboard.
+  Verify that the system displays a list of user accounts that match the entered name or username.
+    Expected: The list of user accounts is displayed.
+  Verify that the displayed results include relevant information such as profile pictures, names, and usernames.
+    Expected: Each user account in the list shows profile picture, name, and username.
+  Click on a user account in the list to view the complete profile.
+  Verify that the complete profile is displayed with additional details and actions.
+    Expected: The complete profile is shown with additional information and actions.
+    
+Expected Result:
+  The system successfully displayed a list of user accounts that match the entered name or username. 
+
+Actual Results: As Expected
+Test Status – Pass/Fail: Pass
+
+3)Test Case ID: TC003
+
+Unit to Test: Account Privacy Settings
+
+Assumptions:
+  The user is a signed-in user.
+  The user is on the "Settings" page.
+  The user wants to make their account private
+  
+Steps to be Executed:
+  Click on the "Account Privacy" section.
+  Verify that a button labeled "Make Account Private" is displayed.
+    Expected: The "Make Account Private" button is visible.
+  Click on the "Make Account Private" button.
+  Verify that the account transitions to a private mode.
+    Expected: The account is set to private mode.
+  
+Expected Result:
+  The account is successfully set to private mode. 
+
+Actual Results: As Expected
+Test Status – Pass/Fail: Pass
+
+4)Test Case ID: TC004
+
+Unit to Test: Upload Profile Picture
+
+Assumptions:
+  The user is logged into their account.
+  The user is on the profile editing page.
+  The user has a valid image file to upload.
+
+Test Data:
+  Image File: "profile_picture.jpg"
+
+Steps to be Executed:
+  Click on the option to upload a new profile picture.
+  Select the desired image file "profile_picture.jpg" from the device.
+  Verify that the uploaded file passes validation.
+    Expected: The file passes validation.
+  System uploads the file to the server.
+  Verify that the user's profile picture is updated.
+    Expected: The user's profile picture is updated.
+  Confirm the successful upload and receive a success message.
+    Expected: A success message is displayed.
+  Save the changes to the user's profile.
+    Expected: All changes are saved
+
+Expected Result:
+  The user is be able to successfully upload a new profile picture
+ 
+Actual Results: Not As Expected
+Test Status – Pass/Fail: Fail
+
+5)Test Case ID: TC005
+
+Unit to Test: Creating Group Chat
+
+Assumptions:
+  The user is logged into their account.
+  The user is on the main messaging interface.
+
+Test Data:
+  Group Chat Name: "Friends Chat"
+  Participants: User1, User2, User3
+
+Steps to be Executed:
+  Select the option to create a new chat or group.
+  Enter the name "Friends Chat" for the group chat.
+    Expected: name is valid
+  Confirm the creation of the group chat.
+  Select or add participants to include in the group chat.
+  Add the selected participants to the group chat.
+    Expected: All participants are added
+  Verify that the newly created group chat is displayed in the user's chat list.
+    Expected: The group chat "Friends Chat" is shown in the chat list.
+
+Expected Result:
+  The user is able to successfully create a group chat named "Friends Chat"
+
+Actual Results: As Expected
+Test Status – Pass/Fail: Pass
